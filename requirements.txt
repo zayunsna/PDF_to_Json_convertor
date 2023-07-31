@@ -1,4 +1,3 @@
-glob
-json
 pdfminer
+pdfminer-six
 konlpy

@@ -44,14 +44,13 @@ Json_DIR = My_DIR+'/json/'
 
 filelist = get_filelists(PDF_DIR, Json_DIR)
 
-print(My_DIR)
-print(PDF_DIR)
-print(Json_DIR)
 print("#"*100)
-print(filelist)
+print("PDF file path : ", PDF_DIR)
+print("Result will be saved here : ", Json_DIR)
 print("#"*100)
+print(" The file that already converted and existed in /json/ dir will be skipped. ")
 print("#"*100)
-
+print(" Now On-progress, ")
 for filename in filelist:
     print(" => ", filename)
     input_filename = PDF_DIR+filename+'.pdf'
