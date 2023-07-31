@@ -1,0 +1,4 @@
+glob
+json
+pdfminer
+konlpy
